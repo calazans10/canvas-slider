@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Canvas Slider
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An image slider rendered on `<canvas>` and only draggable through the mouse cursor.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+In order to use this project you’ll need to have Node 10.16.0 or later version on your local development machine.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.  Clone this repository
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+        $ git clone git@github.com:calazans10/canvas-slider.git
 
-### `npm test`
+2.  Change directory to the application folder
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        $ cd canvas-slider
 
-### `npm run build`
+3.  Install the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        $ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4.  Build the application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        $ npm run build
+    
+5. Serve the application as a static web project
 
-### `npm run eject`
+        $ npm run serve
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+6.  Using a browser, go to `http://localhost:8080` to load the initial page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribute
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Submit a pull request
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT © [Jeferson Farias Calazans](http://calazans10.com)
