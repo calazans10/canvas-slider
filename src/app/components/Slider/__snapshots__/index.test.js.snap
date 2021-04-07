@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider renders without crashing 1`] = `
+<Styled(Component)
+  height={400}
+  width={640}
+>
+  <Layer
+    dragBoundFunc={[Function]}
+    draggable={true}
+  >
+    <Image
+      key="0-0.jpg"
+      position={0}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="0.jpg"
+    />
+    <Image
+      key="640-1.jpg"
+      position={640}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="1.jpg"
+    />
+    <Image
+      key="1280-2.jpg"
+      position={1280}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="2.jpg"
+    />
+    <Image
+      key="1920-3.jpg"
+      position={1920}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="3.jpg"
+    />
+    <Image
+      key="2560-4.jpg"
+      position={2560}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="4.jpg"
+    />
+    <Image
+      key="3200-5.jpg"
+      position={3200}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="5.jpg"
+    />
+    <Image
+      key="3840-6.jpg"
+      position={3840}
+      sliderHeight={400}
+      sliderWidth={640}
+      src="6.jpg"
+    />
+  </Layer>
+</Styled(Component)>
+`;

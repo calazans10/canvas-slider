@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SliderSection renders without crashing 1`] = `
+<styled.section>
+  <Slider
+    height={400}
+    images={
+      Array [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+      ]
+    }
+    width={640}
+  />
+  <styled.aside>
+    <styled.p>
+      Drag to change image
+    </styled.p>
+  </styled.aside>
+</styled.section>
+`;

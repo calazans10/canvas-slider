@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<MainWrapper>
+  <MainHeader />
+  <SliderSection
+    height={400}
+    images={
+      Array [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+      ]
+    }
+    width={640}
+  />
+</MainWrapper>
+`;

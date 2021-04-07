@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainHeader renders without crashing 1`] = `
+<styled.header>
+  <styled.h1>
+    Canvas Slider
+  </styled.h1>
+</styled.header>
+`;
