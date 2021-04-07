@@ -4,7 +4,7 @@ import { images } from '../../../data';
 import SliderSection from '.';
 
 describe('SliderSection', () => {
-  it('renders without crashing', async () => {
+  test('renders without crashing', async () => {
     const wrapper = shallow(<SliderSection width={640} height={400} images={images} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
